@@ -1,9 +1,9 @@
 # bike-data-lakehouse
 End-to-end Databricks Lakehouse project using the Medallion Architecture (Bronze, Silver, Gold) with CSV ingestion and Unity Catalog governance.
-**Project Overview**
+## **Project Overview**
 This project demonstrates how to build a production-style Data Lakehouse using Databricks and the Medallion Architecture (Bronze, Silver, Gold).
 Raw data is ingested, cleaned, transformed, and modeled into analytics-ready datasets using PySpark and Delta Lake, following best practices used in real-world data engineering projects.
-**Architecture Overview**
+## **Architecture Overview**
 Bronze Layer – Raw data ingestion (as-is, minimal transformation)
 Silver Layer – Data cleansing, standardization, deduplication
 Gold Layer – Business-ready dimensional and fact tables
